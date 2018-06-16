@@ -66,7 +66,7 @@ func generateCode(for data: Data, named name: String) -> String {
 
     return """
     let \(name) = Data([
-    \(indentPad)\(bytes)
+    \(indentPad)\(bytes),
     ])
     """
 }
